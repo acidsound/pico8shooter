@@ -7,7 +7,9 @@
 
 <STYLE TYPE="text/css">
 <!--
-
+p {
+  color: #aaaaaa;
+}
 canvas#canvas { width: 512px; height: 512px; }
 
 .pico8_el {
@@ -54,9 +56,11 @@ canvas{
 
 <body bgcolor=#303030>
 
-	<br><br><br>
-
-	<center><div style="width:512px;">
+	<br>
+	<center>
+  <p>Move:←→↑↓ </p>
+  <p>Fire:Z</p>
+  <div style="width:512px;">
 
 	<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
 
